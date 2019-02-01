@@ -391,10 +391,6 @@ application.secret_key = "..."
 - Restart Apache: `sudo service apache2 restart`.
 
 
-
-### Step 13.4: Set up the database schema and populate the database
-`.
-
 ### Step 13.5: Disable the default Apache site
 
 - Disable the default Apache site: `sudo a2dissite 000-default.conf`. 
