@@ -330,7 +330,6 @@ as authorized redirect URI.
   ```
 
 - Run `python __init__.py` .
-  ```
 
 - Deactivate the virtual environment: `deactivate`.
 
