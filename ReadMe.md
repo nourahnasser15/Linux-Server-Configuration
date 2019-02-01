@@ -340,7 +340,7 @@ as authorized redirect URI.
 - Create `/etc/apache2/sites-available/catalog.conf` and add the 
 following lines to configure the virtual host:
 
-  ```
+```
 <VirtualHost *:80>
     ServerName 54.202.88.40
    ServerAlias ec2-54-202-88-40.us-west-2.compute.amazonaws.com
@@ -361,7 +361,7 @@ following lines to configure the virtual host:
     LogLevel warn
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
-  ```
+```
 
 - Enable virtual host: `sudo a2ensite catalog`
 
